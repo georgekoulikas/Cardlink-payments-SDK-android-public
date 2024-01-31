@@ -7,7 +7,7 @@ Also, it enables users to conveniently store their credit cards on secure Cardli
 Read on for more details on the integration process and sample code to get you started with the Cardlink Android Payments SDK. We look forward to making your eCommerce application more powerful, secure, and user-friendly.
 
 ## Features
-* Seamless Payment Processing: Effortlessly handle transactions through a variety of payment options, including Credit Cards, IRIS Online Payments, and PayPal, ensuring an all-encompassing payment solution for your eCommerce application.
+* Seamless Payment Processing: Effortlessly handle transactions, ensuring an all-encompassing payment solution for your eCommerce application.
 * Secure Storage: The Cardlink Payments SDK for Android allows users to securely store their credit card information on the protected Cardlink servers, enabling seamless reuse without the need for re-entering card details multiple times.
 * Enhanced Security: With the Cardlink Payments SDK for Android, users' card data is never stored on their devices, and encrypted card information is transmitted to the server only once. This approach significantly heightens the security measures in place, safeguarding sensitive information.
 * Optimized User Experience: By providing secure storage and seamless payment processing, the SDK ensures an improved user experience that minimizes friction during transactions and promotes customer satisfaction.
@@ -86,7 +86,6 @@ data class PaymentResponse(
     val paymentReference: String? 
 ) 
 ```
-![Payment_Link_1_gr](https://github.com/novidea-dev/Cardlink-payments-SDK-android-public/assets/110978695/89dfe21f-9918-416c-a80d-8ca1326d1964)
 
 #### Example
 ```kotlin
